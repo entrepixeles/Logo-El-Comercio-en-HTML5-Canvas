@@ -1,0 +1,41 @@
+@charset "UTF-8";
+canvas, section, body { 
+	margin: 0; 
+	padding: 0 
+}
+html, body { 
+	height: 100% 
+}
+body {
+	color: #6B6A74;
+	font:16px/1.5 Helvetica Neue, Verdana, sans-serif, Garuda;
+	/*background-color:#ffcc00*/
+}
+::selection {
+	background-color:#f6f6f6 
+}
+::-moz-selection {
+	background-color:#f6f6f6 
+}
+a, a:visited {
+	color: #000CFF;
+	text-decoration: none
+}
+a:hover{ 
+	text-decoration:underline 
+}
+canvas, section {
+	display: block;
+}
+#eco {
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-460px;
+	margin-top:-92px
+}
+#cite {
+	bottom: 40px;
+	position: absolute;
+	left: 40px;
+}
